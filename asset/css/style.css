@@ -41,7 +41,7 @@ body #main #header{
     display: flex;
     align-items: center;
     padding: 8px 16px;
-    background-color:aquamarine;
+    background-color:white;
 }
 
 /* CSS cho web name */
@@ -93,6 +93,7 @@ body #main #header #nav li a:hover {
 
 /* Start CSS banner */
 body #main #banner {
+    position:relative;
     max-width: 100%;
     height: auto;
 }
@@ -107,5 +108,74 @@ body #main #banner #img_name {
     padding: 12px 24px;
     position:absolute;
     bottom: 0px;
+    font-size: 35px;
 }
+/* End CSS banner */
+
+/* Start CSS content */
+body #main #content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Start CSS about */
+body #main #content #about {
+    width: 1100px;
+    height:779px;
+    background-color: white;
+    padding: 64px 0px;
+    position: relative;
+}
+body #main #content #about #about-img {
+    width: 502px;
+    height: 627px;
+    padding: 12px 24px;
+}
+body #main #content #about #about-infor {
+    width: 508px;
+    height: 545px;
+    background-color: white;
+    padding: 12px 24px;
+    position:absolute;
+    top: 75px;
+    right: 40px;
+    text-align: center;
+}
+body #main #content #about #about-tittle{
+    width: 460px;
+    height: 54px;
+    font-size: 36px;
+    margin: 10px 0px;
+}
+body #main #content #about #about-extra-tittle {
+    width: 460px;
+    height: 27px;
+    font-size: 18px;
+    margin: 10px 0px;
+
+}
+body #main #content #about #about-para1 {
+    width: 460px;
+    height: 189px;
+    font-size: 18px;
+    margin: 18px 0px;
+}
+body #main #content #about #about-para1 span{
+    background-color: rgba(0, 0, 0, 0.17);
+}
+body #main #content #about #about-para2 {
+    width: 460px;
+    height: 189px;
+    font-size: 18px;
+    margin: 18px 0px;
+}
+/* End CSS about */
+body #main #content hr {
+    width: 1100px;
+    height: 0.8px;
+    margin: 20px 0px;
+}
+
+
+
 
