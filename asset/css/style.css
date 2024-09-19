@@ -122,7 +122,8 @@ body #main #banner #img_name h1 {
 body #main #content {
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
+    flex-direction: column;
 }
 /* Start CSS about */
 body #main #content #about {
@@ -195,6 +196,42 @@ body #main #content hr {
     width: 1100px;
     height: 0.8px;
     margin: 20px 0px;
+    color:#000000;
+}
+/* Start CSS menu */
+body #main #content #menu {
+    width:1100px;
+    height: 905px;
+    padding: 64px 0px;
+    background-color: aqua;
+    position:relative;
+}
+body #main #content #menu-infor {
+    width: 550px;
+    height: 673px;
+    padding: 12px 24px;
+    background-color: chartreuse;
+    line-height: normal;
+    vertical-align: middle;
+}
+body #main #content #menu-infor #menu-tittle {
+    width: 100%;
+    height: 54px;
+    margin:10px 0px;
+    text-align: center;
+}
+body #main #content #menu-infor #menu-dish-name {
+    width: 100%;
+    height: 30px;
+    margin: 10px 0px;
+}
+body #main #content #menu-img {
+    width: 550px;
+    height: 770px;
+    position: absolute;
+    right:0px;
+    top: 64px;
+    background-color: aquamarine;
 }
 
 
