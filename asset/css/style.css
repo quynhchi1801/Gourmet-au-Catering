@@ -108,7 +108,13 @@ body #main #banner #img_name {
     padding: 12px 24px;
     position:absolute;
     bottom: 0px;
-    font-size: 35px;
+    line-height: 74px;
+}
+body #main #banner #img_name h1 {
+    font-size: 36px;
+    display:inline-block;
+    line-height: normal;
+    vertical-align: middle;
 }
 /* End CSS banner */
 
@@ -122,52 +128,67 @@ body #main #content {
 body #main #content #about {
     width: 1100px;
     height:779px;
-    background-color: white;
+    background-color:white;
     padding: 64px 0px;
     position: relative;
 }
-body #main #content #about #about-img {
-    width: 502px;
-    height: 627px;
+body #main #content #about #img {
+    width: 550px;
+    height: 651px;
     padding: 12px 24px;
+    background-color: white;
+    position:absolute;
+    top: 64px;
+}
+body #main #content #about #img #about-img {
+    width:502px;
+    height:627px;
 }
 body #main #content #about #about-infor {
-    width: 508px;
-    height: 545px;
-    background-color: white;
+    width: 550px;
+    height: 536px;
+    background-color:white;
     padding: 12px 24px;
     position:absolute;
-    top: 75px;
-    right: 40px;
+    top: 64px;
+    right: 0px;
     text-align: center;
 }
-body #main #content #about #about-tittle{
-    width: 460px;
+ body #main #content #about #about-tittle{
+    width: 100%;
     height: 54px;
     font-size: 36px;
     margin: 10px 0px;
 }
+
 body #main #content #about #about-extra-tittle {
-    width: 460px;
+    width: 100%;
     height: 27px;
     font-size: 18px;
     margin: 10px 0px;
+    font-size: 18px;
 
 }
+
 body #main #content #about #about-para1 {
-    width: 460px;
+    width: 100%;
     height: 189px;
     font-size: 18px;
     margin: 18px 0px;
+    text-align: justify;
+    color: #000000;
 }
+
 body #main #content #about #about-para1 span{
     background-color: rgba(0, 0, 0, 0.17);
 }
 body #main #content #about #about-para2 {
-    width: 460px;
+    width: 100%;
     height: 189px;
     font-size: 18px;
     margin: 18px 0px;
+    text-align: justify;
+    color: #757575;
 }
 /* End CSS about */
 body #main #content hr {
