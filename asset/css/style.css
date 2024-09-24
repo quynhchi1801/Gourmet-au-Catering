@@ -115,6 +115,7 @@ body #main #banner #img_name h1 {
     display:inline-block;
     line-height: normal;
     vertical-align: middle;
+    font-weight: normal;
 }
 /* End CSS banner */
 
@@ -154,12 +155,15 @@ body #main #content #about #about-infor {
     top: 64px;
     right: 0px;
     text-align: center;
+    font-weight: normal;
+
 }
  body #main #content #about #about-tittle{
     width: 100%;
     height: 54px;
     font-size: 36px;
     margin: 10px 0px;
+    font-weight: normal;
 }
 
 body #main #content #about #about-extra-tittle {
@@ -168,6 +172,7 @@ body #main #content #about #about-extra-tittle {
     font-size: 18px;
     margin: 10px 0px;
     font-size: 18px;
+    font-weight: normal;
 
 }
 
@@ -178,6 +183,7 @@ body #main #content #about #about-para1 {
     margin: 18px 0px;
     text-align: justify;
     color: #000000;
+    font-weight: normal;
 }
 
 body #main #content #about #about-para1 span{
@@ -190,6 +196,7 @@ body #main #content #about #about-para2 {
     margin: 18px 0px;
     text-align: justify;
     color: #757575;
+    font-weight: normal;
 }
 /* End CSS about */
 body #main #content hr {
@@ -211,6 +218,7 @@ body #main #content #menu-infor {
     height: 673px;
     padding: 12px 24px;
     background-color: white;
+    font-weight: normal;
 
 }
 body #main #content #menu-infor #menu-tittle {
@@ -219,6 +227,7 @@ body #main #content #menu-infor #menu-tittle {
     margin:10px 0px;
     text-align: center;
     padding: 11px 0px;
+    font-weight: normal;
     /* (chiều cao div - cỡ chữ) : 2 = padding */
 }
 body #main #content #menu-infor h4 {
@@ -226,12 +235,14 @@ body #main #content #menu-infor h4 {
     height: 30px;
     margin: 10px 0px;
     font-size: 20px;
+    font-weight: normal;
 }
 body #main #content #menu-infor p {
     width: 100%;
     height: 30px;
     margin: 15px 0px;
     font-size: 15px;
+    font-weight: normal;
 }
 
 
@@ -264,6 +275,7 @@ body #main #content #contact h1 {
     height: 54px;
     margin: 10px 0px;
     font-size: 36px;
+    font-weight: normal;
 }
 body #main #content #contact #contact-first-infor {
     width: 100%;
@@ -277,11 +289,13 @@ body #main #content #contact #contact-second-infor {
     height: 27px;
     margin: 18px 0px;
     background-color:white;
+    font-weight: normal;
 }
 body #main #content #contact #contact-second-infor b {
     width: 420px;
     height: 20px;
     font-size: 18px;
+    font-weight: normal;
 }
 body #main #content #contact #contact-third-infor {
     width: 100%;
@@ -289,6 +303,8 @@ body #main #content #contact #contact-third-infor {
     margin: 15px 0px;
     background-color:white;
     font-size: 15px;
+    font-weight: normal;
+    font-weight: normal;
 }
 body #main #content #contact input {
     width: 100%;
@@ -316,6 +332,22 @@ body #main #content #contact #contact-button button{
 }
 /* End CSS contact */
 /* Start CSS footer */
+body #main #footer {
+    width: 100%;
+    height:117px;
+    background-color:rgba(0, 0, 0, 0.17) ;
+    padding: 32px 0px ;
+}
+body #main #footer p {
+    width: 100%;
+    height: 23px;
+    font-size: 15px;
+    margin: 15px 0px;
+    text-align: center;
+}
+body #main #footer p a{
+    color:#000000;
+}
 
 
 
